@@ -14,14 +14,14 @@ class Example(Frame):
         Frame.__init__(self, parent)
 
         self.parent = parent
-        self.quote = "I was supposed to be a cool quote . But then internet abandoned me !"
-        self.author = "Aditya"
+        # self.quote = "I was supposed to be a cool quote . But then internet abandoned me !"
+        # self.author = "Alisha"
+        self.getQuote()
         self.initUI()
-        # self.getQuote()
 
     def initUI(self):
 
-        self.parent.title("Buttons")
+        self.parent.title("Wola!!! I automate")
         self.style = Style()
         self.style.theme_use("alt")
 
@@ -44,7 +44,7 @@ class Example(Frame):
                              style="Medium.TButton", command=self.parent.quit)
         closeButton.pack(side=RIGHT)
         okButton = Button(
-            self, text="Portfolio", style="Medium.TButton", command=self.btnOneFn)
+            self, text="GitHub", style="Medium.TButton", command=self.btnOneFn)
         okButton.pack(side=RIGHT)
         okButton = Button(self, text="JStack",
                           style="Medium.TButton", command=self.btnTwoFn)
@@ -64,7 +64,7 @@ class Example(Frame):
 
     def btnOneFn(self):
         subprocess.Popen(
-            ['nautilus', "/mnt/864A162B4A16190F/git/portfolio"])
+            ['firefox', "https://www.github.com"])
         subprocess.Popen(
             ['gnome-terminal'], cwd=r'/mnt/864A162B4A16190F/git/portfolio')
 
