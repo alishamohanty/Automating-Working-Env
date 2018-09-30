@@ -46,7 +46,7 @@ class Example(Frame):
         okButton = Button(
             self, text="GitHub", style="Medium.TButton", command=self.btnOneFn)
         okButton.pack(side=RIGHT)
-        okButton = Button(self, text="JStack",
+        okButton = Button(self, text="Open Project List",
                           style="Medium.TButton", command=self.btnTwoFn)
         okButton.pack(side=RIGHT)
         okButton = Button(self, text="Python",
@@ -68,9 +68,7 @@ class Example(Frame):
 
     def btnTwoFn(self):
         subprocess.Popen(
-            ['nautilus', "/mnt/864A162B4A16190F/git/JStack"])
-        subprocess.Popen(
-            ['gnome-terminal'], cwd=r'/mnt/864A162B4A16190F/git/JStack')
+            ['nautilus', "/home/alisha/project"])
 
     def btnThreeFn(self):
         subprocess.Popen(
