@@ -49,7 +49,7 @@ class Example(Frame):
         okButton = Button(self, text="Open Project List",
                           style="Medium.TButton", command=self.btnTwoFn)
         okButton.pack(side=RIGHT)
-        okButton = Button(self, text="Python",
+        okButton = Button(self, text="Login to CET Wifi",
                           style="Medium.TButton", command=self.btnThreeFn)
         okButton.pack(side=RIGHT)
 
@@ -71,10 +71,7 @@ class Example(Frame):
             ['nautilus', "/home/alisha/project"])
 
     def btnThreeFn(self):
-        subprocess.Popen(
-            ['nautilus', "/mnt/864A162B4A16190F/git/Python"])
-        subprocess.Popen(
-            ['gnome-terminal'], cwd=r'/mnt/864A162B4A16190F/git/Python')
+        subprocess.call("python cet_logn.py", shell="True")
 
 
 def main():
