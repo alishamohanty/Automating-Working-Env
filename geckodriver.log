@@ -1,0 +1,97 @@
+1538370111173	geckodriver	INFO	geckodriver 0.18.0
+1538370111176	geckodriver	INFO	Listening on 127.0.0.1:45323
+1538370112302	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1538370115081	Marionette	INFO	Listening on port 42001
+1538370115124	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538370115168	Marionette	DEBUG	[2147483649] Frame script loaded
+1538370115176	Marionette	DEBUG	[2147483649] Frame script registered
+1538370115196	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1538370115239	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1538370115818	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://172.16.0.1:8090/
+1538370115929	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://172.16.0.1:8090/
+1538370192488	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: timeout
+1538370327789	geckodriver	INFO	geckodriver 0.18.0
+1538370327792	geckodriver	INFO	Listening on 127.0.0.1:60187
+1538370328952	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1538370331554	Marionette	INFO	Listening on port 42647
+1538370331565	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538370331609	Marionette	DEBUG	[2147483649] Frame script loaded
+1538370331611	Marionette	DEBUG	[2147483649] Frame script registered
+1538370331652	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1538370333043	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1538370333183	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://172.16.0.1:8090/
+1538370333260	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://172.16.0.1:8090/
+1538370335628	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538370389528	geckodriver	INFO	geckodriver 0.18.0
+1538370389530	geckodriver	INFO	Listening on 127.0.0.1:47123
+1538370390637	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1538370393239	Marionette	INFO	Listening on port 41233
+1538370393252	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538370393297	Marionette	DEBUG	[2147483649] Frame script loaded
+1538370393306	Marionette	DEBUG	[2147483649] Frame script registered
+1538370393328	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1538370393349	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1538370393508	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://172.16.0.1:8090/
+1538370393528	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://172.16.0.1:8090/
+1538370395877	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+[Parent 8606, Gecko_IOThread] WARNING: pipe error (64): Connection reset by peer: file /build/firefox-LCnNpq/firefox-62.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1538370403579	Marionette	INFO	Stopped listening on port 41233
+1538370415023	geckodriver	INFO	geckodriver 0.18.0
+1538370415025	geckodriver	INFO	Listening on 127.0.0.1:57825
+1538370416126	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1538370418784	Marionette	INFO	Listening on port 45993
+1538370418845	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538370418891	Marionette	DEBUG	[2147483649] Frame script loaded
+1538370418892	Marionette	DEBUG	[2147483649] Frame script registered
+1538370418906	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1538370418925	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1538370419062	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://172.16.0.1:8090/
+1538370419129	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://172.16.0.1:8090/
+1538370421468	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+[Parent 8825, Gecko_IOThread] WARNING: pipe error (57): Connection reset by peer: file /build/firefox-LCnNpq/firefox-62.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1538370811231	Marionette	INFO	Stopped listening on port 45993
+[Parent 8405, Gecko_IOThread] WARNING: pipe error (44): Connection reset by peer: file /build/firefox-LCnNpq/firefox-62.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1538370815214	Marionette	INFO	Stopped listening on port 42647
+[Parent 8116, Gecko_IOThread] WARNING: pipe error (67): Connection reset by peer: file /build/firefox-LCnNpq/firefox-62.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1538370821967	Marionette	INFO	Stopped listening on port 42001
+1538370823551	geckodriver	INFO	geckodriver 0.18.0
+1538370823554	geckodriver	INFO	Listening on 127.0.0.1:57823
+1538370824687	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1538370827357	Marionette	INFO	Listening on port 35961
+1538370827403	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538370827452	Marionette	DEBUG	[2147483649] Frame script loaded
+1538370827465	Marionette	DEBUG	[2147483649] Frame script registered
+1538370827486	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1538370827540	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1538370827882	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://172.16.0.1:8090/
+1538370828044	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://172.16.0.1:8090/
+1538370830448	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538371135365	Marionette	INFO	Stopped listening on port 35961
+1538371138508	geckodriver	INFO	geckodriver 0.18.0
+1538371138510	geckodriver	INFO	Listening on 127.0.0.1:50363
+1538371139644	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1538371142374	Marionette	INFO	Listening on port 42281
+1538371142465	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538371142510	Marionette	DEBUG	[2147483649] Frame script loaded
+1538371142515	Marionette	DEBUG	[2147483649] Frame script registered
+1538371142531	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1538371142555	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1538371142692	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://172.16.0.1:8090/
+1538371142711	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://172.16.0.1:8090/
+1538371145039	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1538371957361	geckodriver	INFO	geckodriver 0.18.0
+1538371957363	geckodriver	INFO	Listening on 127.0.0.1:49907
+1538371958543	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1538371961295	Marionette	INFO	Listening on port 45943
+1538371961359	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538371961405	Marionette	DEBUG	[2147483649] Frame script loaded
+1538371961405	Marionette	DEBUG	[2147483649] Frame script registered
+1538371961421	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1538371961492	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1538371961670	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://172.16.0.1:8090/
+1538371961768	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://172.16.0.1:8090/
+1538371964149	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+[Parent 10061, Gecko_IOThread] WARNING: pipe error (64): Connection reset by peer: file /build/firefox-LCnNpq/firefox-62.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1538409441638	Marionette	INFO	Stopped listening on port 45943
+[Parent 9661, Gecko_IOThread] WARNING: pipe error (57): Connection reset by peer: file /build/firefox-LCnNpq/firefox-62.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1538409447122	Marionette	INFO	Stopped listening on port 42281

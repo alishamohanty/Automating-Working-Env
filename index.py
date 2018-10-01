@@ -14,9 +14,9 @@ class Example(Frame):
         Frame.__init__(self, parent)
 
         self.parent = parent
-        # self.quote = "I was supposed to be a cool quote . But then internet abandoned me !"
-        # self.author = "Alisha"
-        self.getQuote()
+        self.quote = "I was supposed to be a cool quote . But then internet abandoned me !"
+        self.author = "Alisha"
+        #self.getQuote()
         self.initUI()
 
     def initUI(self):
@@ -52,6 +52,9 @@ class Example(Frame):
         okButton = Button(self, text="Login to CET Wifi",
                           style="Medium.TButton", command=self.btnThreeFn)
         okButton.pack(side=RIGHT)
+        okButton = Button(self, text="Saavn",
+                          style="Medium.TButton", command=self.btnFourFn)
+        okButton.pack(side=RIGHT)
 
     def hello(self):
         print("Print Hello")
@@ -71,8 +74,11 @@ class Example(Frame):
             ['nautilus', "/home/alisha/project"])
 
     def btnThreeFn(self):
-        subprocess.call("python cet_logn.py", shell="True")
+        subprocess.call("python /home/alisha/project/Automating-Working-Env/cet_logn.py", shell="True")
 
+    def btnFourFn(self):
+        subprocess.Popen(
+            ['firefox', "https://www.saavn.com/"])
 
 def main():
 
